@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <Title> Erfin Ristianto</Title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <script src="scripts/main.js"></script>
+   
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <script src="scripts/main.js"></script>
+
+    <!-- header -->
+    
+    <header>
+        <div class="main-container">
+            <section id="Home"><div class="nav">
+                <div class="logo">
+                    <a href="#">VIN</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portofolios">Portofolios</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="/resume.pdf" target="_blank" <button class="btn"> resume</button>
+                                     </a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+
+            
+            </div></section>
+            <section id="hero">
+                <div class="hero-left">
+                    <h3 class="pre-title">My Name Is</h3>
+                    <h1 class="hero-name">Erfin <span>Ristianto</span></h1>
+                    <p>Saya adalah seorang siswa lulusan SMK TRIBAKTI PANGALENGAN
+                        Jurusan Teknik Bisnis Sepeda Motor atau biasa disingkat TBSM.
+                        Saya merupakan seorang yang suka mempelajari hal hal baru dan menyukai tantangan.
+                    </p>
+                </div>
+                <div class="hero-right">
+                    <img src="images/human.png" alt="person standing">
+                </div>
+            </section>
+        </div>
+
+
+    </header>
+    <!-- end of header -->
+
+    <!-- services -->
+
+    <!-- <section id="services">
+        <div class="services main-container">
+            <h3 class="pre-title">Services</h3>
+            <h1 class="section-title services-title">Specialezed In</h1>
+            <div class="grid-3">
+
+                <!-- Services 1 -->
+<!--                 
+                <div class="services">
+                    <div class="services-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M16.896 10l-4.896-8-4.896 8-7.104-4 3 11v5h18v-5l3-11-7.104 4zm-11.896 10v-2h14v2h-14zm14.2-4h-14.4l-1.612-5.909 4.615 2.598 4.197-6.857 4.197 6.857 4.615-2.598-1.612 5.909z" />
+                            </svg>
+                    </div>
+                    <h4>UI/UX Design</h4>
+                    <p>
+                        Turn what you have in mind of digital product into reality. For any platform you consider
+                    </p>
+                </div> --> 
+
+                <!-- Services 2 -->
+                <!-- <div class="services">
+                    <div class="services-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M14 2v2h-4v-2h4zm2-2h-8v6h8v-6zm-12 20v2h-2v-2h2zm2-2h-6v6h6v-6zm16 2v2h-2v-2h2zm2-2h-6v6h6v-6zm-11 2v2h-2v-2h2zm2-2h-6v6h6v-6zm6-2h-2c0-3.75-4.967-1.207-6.942-4.753-1.965 3.526-7.135 1.016-7.142 4.753h-1.916c.003-6.521 7.384-1.532 8-8h2c.616 6.473 8 1.469 8 8z" />
+                                </svg>
+                    </div>
+                    <h4>Design</h4>
+                    <p>
+                        Standard designing, building, and implementing your applications with documentation.
+                    </p>
+                </div> -->
+
+                <!-- Services 3 -->
+                <!-- <div class="services">
+                    <div class="services-icon">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/></svg>
+                    </div>
+                    <h4>Web Development</h4>
+                    <p>
+                        Create and maintain your websites and also take care of its performance and traffic capacity.
+                    </p>
+                </div>
+
+            </div>
+
+        </div> -->
+    <!-- </section> -->
+    
+
+    <!-- Skills and education -->
+    <section id="skills">
+        <div class="skills main-container">
+            <h3 class="pre-title">Learning Path</h3>
+            <h1 class="section-title">Skills & Education</h1>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!-- Education 1 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">SD Negeri Cinta Kasih</h4>
+                            <p></p>
+                            <h4 class="education-years">2009-2015</h4c>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">SMP Pasundan Pangalengan</h4>
+                            <p></p>
+                            <h4 class="education-years">2015-2018</h4c>
+                        </div>
+                    </div>
+
+                    <!-- Education 3 -->
+
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">SMK TRIBAKTI</h4>
+                            <p>Teknik Bisnis Sepeda Motor</p>
+                            <h4 class="education-years">2018-2021</h4c>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>Saya mempunyai beberapa hobi dan salah satu hobi saya adalah
+                        mempelajari hal baru. Oleh karena itu saya mempunyai lumayan banyak skills.
+                        Dibawah sini adalah kumpulan skills saya
+                    </p>
+
+                    <div class="skills-list">
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Ilustrator</li>
+                            <li>Corel Draw</li>
+                            <li>Html</li>
+                            <li>CSS</li>
+                        </ul>
+
+                        <ul> 
+                            <li>MS Word</li>
+                            <li>MS Excel</li>
+                            <li>Cap Cut</li>
+                            <li>Basic Mechanic</li>
+                            <li>Cooking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of skills and education -->
+
+<!-- end of services -->
+
+    <!-- portorfolio -->
+
+    <section id="portofolios">
+            <div class="portofilos main-container">
+                <h3 class="pre-title">My Works</h3>
+                <h1 class="section-title">Feature portofolios</h1>
+                <div class="grid-3">
+                    <!-- portofolio 1 -->
+                    <div class="portofolio">
+                        <div class="portofolio-cover">
+                            <img src="images/1.png" alt="Logo Bengkel">
+                        </div>
+    
+                        <div class="portofolio-info">
+                            <div class="portofolio-title">
+                                <h4>Design</h4>
+                                <a href="https://drive.google.com/file/d/1VvWhnstj3QTDgJalKYIbqAhNI079VkKe/view?usp=drive_link" class="portofolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg></a>
+                            </div>
+    
+                            <div class="portofolio-tags">
+                                <div>Corell Draw</div>
+                                <div>Adobe Ilustrator</div>
+                            </div>
+    
+                            <p>Ini adalah design yang sudah pernah saya buat
+                                untuk bengkel dikampung saya.
+                                Untuk melihat logo dengan penuh click icon diatas. 
+                                
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- portofolio 2 -->
+    
+                    <div class="portofolio">
+                        <div class="portofolio-cover">
+                            <img src="images/2.jpg" alt="kucing">
+                        </div>
+    
+                        <div class="portofolio-info">
+                            <div class="portofolio-title">
+                                <h4>Manipulation</h4>
+                                <a href="https://www.instagram.com/justt.vinnn/?igsh=dzNsYzUxejk3Zmoz" class="portofolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg></a>
+                            </div>
+    
+                            <div class="portofolio-tags">
+                                <div>Photoshop</div>
+                                <!-- <div>Tailwind</div> -->
+                            </div>
+    
+                            <p>Ini adalah salah satu edit manipulation yang sudah pernah saya buat.
+                                untuk melihat beberapa editan manipulation saya bisa kunjungi IG saya dengan cara click icon diatas.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- portofolio 3 -->
+    
+                    <div class="portofolio">
+                        <div class="portofolio-cover">
+                            <img src="images/3.jpg" alt="kucing">
+                        </div>
+    
+                        <div class="portofolio-info">
+                            <div class="portofolio-title">
+                                <h4>Content Creator</h4>
+                                <a href="https://www.tiktok.com/@mlbb.vin?_t=8kHYhKPtdt1&_r=1" class="portofolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                                        </svg></a>
+                            </div>
+    
+                            <div class="portofolio-tags">
+                                <div>Tiktok</div>
+                                <!-- <div>Tailwind</div> -->
+                            </div>
+    
+                            <p>Saya mencoba membuat beberapa content diTiktok.
+                                Untuk melihat beberapa content yang pernah saya buat
+                                bisa lihat di akun Tiktok saya dengan click icon diatas.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <!-- end of portofolio -->
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="contact main-container">
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/xbjnypya" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div>
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-rigth">
+
+                <!-- contact 1 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 22.586l-2.823-2.823c.526-.792.836-1.74.836-2.763 0-2.762-2.238-5-5-5s-5 2.238-5 5 2.238 5 5 5c1.016 0 1.957-.307 2.746-.827l2.827 2.827 1.414-1.414zm-9.987-5.586c0-1.654 1.346-3 3-3s3 1.346 3 3-1.346 3-3 3-3-1.346-3-3zm-4 0l.002-.034-3.015 2.175v-13.068l4-2.886v10.247c.508-.854 1.189-1.591 2-2.161v-8.086l4 2.886v3.927h.013c.336 0 .664.032.987.078v-4.007l4-2.479v8.504c1.188 1.208 1.936 2.844 2 4.653v-16.749l-6.455 4-5.545-4-5.545 4-6.455-4v18l6.455 4 3.91-2.82c-.226-.687-.352-1.419-.352-2.18zm-4.013 2.365l-4-2.479v-13.294l4 2.479v13.294z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Adress</h4>
+                        <p>margamulya, bandung regency, west java </p>
+                    </div>
+                </div>
+
+                <!-- contact 2 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Whatshapp</h4>
+                        <p>081222382389</p>
+                    </div>
+                </div>
+
+                <!-- contact 3 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Email</h4>
+                        <p>Erfin162@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact -->
+
+    <!-- Copyright -->
+    <footer id="footer">
+        <div class="footer-icons">
+
+            <!-- 1 -->
+            <a href="https://www.instagram.com/justt.vinnn/?igsh=dzNsYzUxejk3Zmoz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                    </svg></a>
+            
+            <!-- 2 -->
+            <a href="https://www.tiktok.com/@mlbb.vin?_t=8kHYhKPtdt1&_r=1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                </svg></a>
+            
+            <!-- 3 -->
+            <!-- <button class="btn-ml" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M13.84 14.31c-.295.522-.517 1.09-.659 1.69h-9.181v-.417c-.004-1.112.044-1.747 1.324-2.043 1.402-.324 2.787-.613 2.121-1.841-1.972-3.637-.562-5.699 1.555-5.699 2.077 0 3.521 1.985 1.556 5.699-.647 1.22.688 1.51 2.121 1.841.672.155 1 .407 1.163.77zm-.815 3.69h-11.025v-14h20v7.5c.749.312 1.424.763 2 1.316v-10.816h-24v18h13.5c-.26-.623-.421-1.296-.475-2zm6.975-9h-4v2h4v-2zm-4-1h4v-2h-4v2zm8 9.5c0 2.485-2.018 4.5-4.5 4.5-2.484 0-4.5-2.015-4.5-4.5s2.016-4.5 4.5-4.5c2.482 0 4.5 2.015 4.5 4.5zm-2-.5h-2v-2h-1v2h-2v1h2v2h1v-2h2v-1z" />
+                    </svg></button> -->
+            
+            <!-- 4 -->
+            <!-- <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M16.896 10l-4.896-8-4.896 8-7.104-4 3 11v5h18v-5l3-11-7.104 4zm-11.896 10v-2h14v2h-14zm14.2-4h-14.4l-1.612-5.909 4.615 2.598 4.197-6.857 4.197 6.857 4.615-2.598-1.612 5.909z" />
+                </svg></a> -->
+        </div>
+        <p>&#169; 2024 - Made By Vin</p>
+    </footer>
+    <!-- end of copyright  -->
+    <!-- <script src="scripts/main.js"></script> -->
+        
+</body>
+
+</html>
